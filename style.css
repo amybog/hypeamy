@@ -1,13 +1,65 @@
 body {
-
-background-color: black;
-
+    background-color:whitesmoke;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(61, 58, 55);
+    margin-left: 20px;
+    font-size: 20px;
+}
 
-  color: pink;
+h1, h3, h4, h5, h6 {
+    text-align: center;
+}
 
-  text-align: center;
+p {
+    color: steelblue;
+    margin-left: 20px;
+    font-size: 20px;
+}
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: steelblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+}
+
+/* unvisited link */
+a:link {
+    color: steelblue;
+}
+
+/* visited link */
+a:visited {
+    color: rgb(61, 58, 55);
+}
+
+/* mouse over link */
+a:hover {
+    color: lightsteelblue;
+}
+
+/* selected link */
+a:active {
+    color: thistle;
 }
