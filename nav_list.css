@@ -1,0 +1,28 @@
+.navigation {
+
+    float:block;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid whitesmoke;
+
+}
+
+.navigation ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: circle;
+
+}
+
+.navigation li a {
+    text-align: left;
+    display: inline;
+    padding: 5px;
+    width: 180px;
+    color:whitesmoke;
+    background-color: rgb(61, 58, 55);
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    background-color: lightsteelblue;
+}
